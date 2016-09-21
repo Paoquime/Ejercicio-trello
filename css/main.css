@@ -1,0 +1,22 @@
+body {
+	background-image: url("../image/fondotrello.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+input {
+	margin-top: 6%;
+	width: 200px;
+	height: 30px;
+	background-color: #006BA9;
+	color: #CCE1ED;
+	cursor: pointer;
+}
+
+input:hover {
+	background-color: #144A6A;
+}
+
+#nota {
+	display: none;
+}
