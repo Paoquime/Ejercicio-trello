@@ -5,7 +5,6 @@
   Un elemento en el HTML con el mensaje "Añadir una lista", que al dar click muestre un input y un botón (formulario) para que el usuario ingrese el nombre de la lista.
 
 ![Sin titulo](http://i64.tinypic.com/2954zs1.png) ![Sin titulo](http://i66.tinypic.com/20f4uir.png) 
-![Sin titulo]() ![Sin titulo]()
 
 * solución:
 
@@ -31,3 +30,5 @@
           		fondo.style.display = "block";
           	}
           });
+
+ - Con lo cual obtenemos que al dar click al primer input("añadir lista") se muestre el formulario en donde el usuario podra escribir el nombre de su lista; para ello como se muestra lineas arriba hacemos uso de la propiedad **display**que nos permite ocultar y mostrar elementos.
