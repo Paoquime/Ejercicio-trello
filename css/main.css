@@ -2,17 +2,24 @@ body {
 	background-image: url("../image/fondotrello.png");
 	background-repeat: no-repeat;
 	background-size: auto;
+	margin-top: 100px;
+	margin-left: 30px;
 }
 
-/*
-form {
-	border: solid 10px #E2E4E6;
-}*/
+
+#fondo {
+	width: 300px;
+	height: 75px;
+	padding: 3px;
+	border-radius: 4px;
+	background-color: #E2E4E6;
+	display: none;
+	
+}
 
 #nota-inicial {
-	margin-top: 6%;
-	width: 200px;
-	height: 30px;
+	width: 250px;
+	height: 40px;
 	background-color: #006BA9;
 	color: #CCE1ED;
 	cursor: pointer;
@@ -24,8 +31,24 @@ form {
 
 #nota {
 	display: none;
+    width: 290px;
+    padding: 1px;
+    height: 30px;
+    cursor: text;
+    border-color: #AAAAAA;
+    border-style: double;
+    background-color: #D7D9DB;
 }
 
 #boton {
 	display: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: #5DB449;
+    font-weight: bold;
+    font-size: 1em;
 }
