@@ -4,7 +4,12 @@ body {
 	background-size: auto;
 }
 
-input {
+/*
+form {
+	border: solid 10px #E2E4E6;
+}*/
+
+#nota-inicial {
 	margin-top: 6%;
 	width: 200px;
 	height: 30px;
@@ -13,10 +18,14 @@ input {
 	cursor: pointer;
 }
 
-input:hover {
+#nota-inicial:hover {
 	background-color: #144A6A;
 }
 
 #nota {
+	display: none;
+}
+
+#boton {
 	display: none;
 }
